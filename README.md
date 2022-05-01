@@ -4,7 +4,7 @@
 22. Клонировать репозиторий XML на локальный компьютер.  
 `Зайти в репозитрий XML - Code HTTPS (скопировать ссылку);
 в GitBash:
-git clone` https://github.com/irinalwnk/XML.git  
+git clone https://github.com/irinalwnk/XML.git`  
 23. Внутри локального XML создать файл “new.xml”.  
 `cd XML`  
 `touch new.xml`   
