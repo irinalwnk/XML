@@ -16,15 +16,15 @@ git clone https://github.com/irinalwnk/XML.git`
 `git push`  
 27. Отредактировать содержание файла “new.xml” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате XML.  
 `vim new.xml `  
-Нажать "i" для ввода данных.  
-В формате XML:  
+	Нажать "i" для ввода данных.  
+	В формате XML:  
 ```XML
 	<name> Leshenko Irina </name>  
 	<age> 31 </age>  
 	<cats> 1 </cats>  
 	<expected_salaty> 800$ </expected_salary>  
 ```   
-Нажать "Esc" и ввести для выхода из редактора    
+	Нажать "Esc" и ввести для выхода из редактора    
 	`:wq`    
 28. Отправить изменения на внешний репозиторий.  
 `git commit -am 'add information in XML new.xml'; git push`  
@@ -42,12 +42,13 @@ git clone https://github.com/irinalwnk/XML.git`
 	<country_to_visit> Ireland </country_to_visit>  
 ```  
 Нажать "Esc" и ввести для выхода из редактора  
-	`:wq`   
+`:wq`  
+   
 31. Создать файл skills.xml добавить информацию о скиллах которые будут изучены на курсе в формате XML  
 `touch skills.xml`  
-`vim skills.xml` 
-Нажать "i" для ввода данных.   
-В формате XML:  
+`vim skills.xml`   
+	`Нажать "i" для ввода данных.`   
+	В формате XML:  
 ```XML   
 	<Skill_1> QA Testing </Skill_1>  
 	<Skill_2> Terminal </Skill_2>    
@@ -55,9 +56,10 @@ git clone https://github.com/irinalwnk/XML.git`
     <Skill_4> Jmeter </Skill_4>    
     <Skill_5> SQL </Skill_5>   
     <Skill_6> Android Studio </Skill_6>  
-```    
+```  
 Нажать "Esc" и ввести для выхода из редактора   
-	`:wq`  
+`:wq`  
+
 32. Сделать коммит в одну строку.  
 `git add . ; git commit -m 'add information in XML'`  
 33. Отправить сразу 2 файла на внешний репозиторий.  
@@ -68,8 +70,8 @@ git clone https://github.com/irinalwnk/XML.git`
 `В строку "Commit new file" добавить "Cteate New File - bug_report.xml" - Нажать "Commit new file"`  
 36. На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML.  
 `Edit this file - внести информацию в файл  в формате XML`   
-Нажать "i" для ввода данных.   
-В формате XML:   
+	Нажать "i" для ввода данных.   
+	В формате XML:   
 ```XML  
 <title> Не работает кнопка отправки заказа. </title>  
 <steps_to_reproduce>  
@@ -82,7 +84,8 @@ git clone https://github.com/irinalwnk/XML.git`
 <er> Ожидаемый результат кнопка нажимается можно сделать заказ. </er>  
 ```  
 Нажать "Esc" и ввести для выхода из редактора   
-	`:wq`  
+`:wq`  
+
 37. Сделать Commit changes (сохранить) изменения на веб интерфейсе.  
 `В строку "Commit new file" добавить "add information XML" - Нажать "Commit new file"`  
 38. Синхронизировать внешний и локальный репозиторий XML  
