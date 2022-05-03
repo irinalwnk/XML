@@ -26,7 +26,7 @@ git clone https://github.com/irinalwnk/XML.git`
 ```  
 Нажать "Esc" и ввести для выхода из редактора      
 	`:wq`   
-	   
+
 28. Отправить изменения на внешний репозиторий.  
 `git commit -am 'add information in XML new.xml'; git push`  
 29. Создать файл preferences.xml  
@@ -48,15 +48,15 @@ git clone https://github.com/irinalwnk/XML.git`
 31. Создать файл skills.xml добавить информацию о скиллах которые будут изучены на курсе в формате XML  
 `touch skills.xml`  
 `vim skills.xml`   
-	`Нажать "i" для ввода данных.`   
+	Нажать "i" для ввода данных.  
 	В формате XML:  
 ```XML   
-	<Skill_1> QA Testing </Skill_1>  
-	<Skill_2> Terminal </Skill_2>    
-	<Skill_3> Postman </Skill_3>    
-    <Skill_4> Jmeter </Skill_4>    
-    <Skill_5> SQL </Skill_5>   
-    <Skill_6> Android Studio </Skill_6>  
+<Skill_1> QA Testing </Skill_1>  
+<Skill_2> Terminal </Skill_2>    
+<Skill_3> Postman </Skill_3>    
+<Skill_4> Jmeter </Skill_4>    
+<Skill_5> SQL </Skill_5>   
+<Skill_6> Android Studio </Skill_6>  
 ```  
 Нажать "Esc" и ввести для выхода из редактора   
 `:wq`  
