@@ -70,8 +70,7 @@ git clone https://github.com/irinalwnk/XML.git`
 35. Сделать Commit changes (сохранить) изменения на веб интерфейсе.  
 `В строку "Commit new file" добавить "Cteate New File - bug_report.xml" - Нажать "Commit new file"`  
 36. На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML.  
-`Edit this file - внести информацию в файл  в формате XML`   
-	Нажать "i" для ввода данных.   
+`Edit this file - внести информацию в файл  в формате XML`    
 	В формате XML:   
 ```XML  
 <title> Не работает кнопка отправки заказа. </title>  
@@ -84,10 +83,9 @@ git clone https://github.com/irinalwnk/XML.git`
 <ar> Кнопка неактивна. </ar>  
 <er> Ожидаемый результат кнопка нажимается можно сделать заказ. </er>  
 ```  
-Нажать "Esc" и ввести для выхода из редактора   
-`:wq`  
 
-37. Сделать Commit changes (сохранить) изменения на веб интерфейсе.  
+
+37.  Сделать Commit changes (сохранить) изменения на веб интерфейсе.  
 `В строку "Commit new file" добавить "add information XML" - Нажать "Commit new file"`  
 38. Синхронизировать внешний и локальный репозиторий XML  
 `git pull`
