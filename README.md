@@ -23,9 +23,10 @@ git clone https://github.com/irinalwnk/XML.git`
 	<age> 31 </age>  
 	<cats> 1 </cats>  
 	<expected_salaty> 800$ </expected_salary>  
-```   
-	Нажать "Esc" и ввести для выхода из редактора    
-	`:wq`    
+```  
+Нажать "Esc" и ввести для выхода из редактора      
+	`:wq`   
+	   
 28. Отправить изменения на внешний репозиторий.  
 `git commit -am 'add information in XML new.xml'; git push`  
 29. Создать файл preferences.xml  
@@ -43,7 +44,7 @@ git clone https://github.com/irinalwnk/XML.git`
 ```  
 Нажать "Esc" и ввести для выхода из редактора  
 `:wq`  
-   
+
 31. Создать файл skills.xml добавить информацию о скиллах которые будут изучены на курсе в формате XML  
 `touch skills.xml`  
 `vim skills.xml`   
